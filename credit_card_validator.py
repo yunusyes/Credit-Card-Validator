@@ -38,8 +38,7 @@ class credit_card_validator:
                 self.even_doubled_nums_two_digits.append(i)
                 index_even_doubled_nums += 1
             else:
-                index_even_doubled_nums += 1
-        print(self.even_doubled_nums_two_digits)      
+                index_even_doubled_nums += 1    
         for number in self.even_doubled_nums_two_digits:
             digit_sum = 0
             for digit in str(number):
